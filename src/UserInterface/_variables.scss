@@ -1,0 +1,78 @@
+//== Gray Shades
+//## Different gray shades to be used for our variables and components
+$gray-darker:                                       #222222;
+$gray-dark:                                         #333333;
+$gray:                                              #555555;
+$gray-light:                                        #888888;
+$gray-primary:                                      #D7D7D7;
+$gray-lighter:                                      #EEEEEE;
+
+//== Step 1: Brand Colors
+$default:                                     #122945;
+$primary:                                     #0C2D82;
+$inverse:                                     #252C36;
+$info:                                        #48B0F7;
+$success:                                     #76CA02;
+$warning:                                     #F99B1D;
+$danger:                                      #ED1C24;
+
+$primary-light:                               #0c2d827c;
+$primary-lighter:                             #0c2d8210;
+
+$table-header:                                      #0c2d8236;
+$table-border:                                      #0c2d8281;
+
+$blue:                                              rgba(0, 225, 255, 0.295);
+$dark-blue:                                         rgb(0, 225, 255);
+$dark-orange:                                       rgba(255, 196, 0, 0.295);
+$lightblue:                                         rgb(0, 225, 255);
+$yellow:                                            rgb(255, 196, 0);
+
+// Global Border Color
+$border-color-default:                  $gray-primary !default;
+$border-radius-default:                 4px !default;
+
+// Default button style
+$btn-font-size:                         14px !default;
+$btn-bordered:                          false !default; // Default value false, set to true if you want this effect
+$btn-border-radius:                     $border-radius-default !default;
+
+// Button Background Color
+$btn-default-bg:                        #FFF !default;
+$btn-inverse-bg:                        $inverse !default;
+$btn-primary-bg:                        $primary !default;
+$btn-info-bg:                           $info !default;
+$btn-success-bg:                        $success !default;
+$btn-warning-bg:                        $warning !default;
+$btn-danger-bg:                         $danger !default;
+
+// Button Border Color
+$btn-default-border-color:              $default !default;
+$btn-inverse-border-color:              $btn-inverse-bg !default;
+$btn-primary-border-color:              $btn-primary-bg !default;
+$btn-info-border-color:                 $btn-info-bg !default;
+$btn-success-border-color:              $btn-success-bg !default;
+$btn-warning-border-color:              $btn-warning-bg !default;
+$btn-danger-border-color:               $btn-danger-bg !default;
+
+// Button Text Color
+$btn-default-color:                     $primary !default;
+$btn-inverse-color:                     #FFF !default;
+$btn-primary-color:                     #FFF !default;
+$btn-info-color:                        #FFF !default;
+$btn-success-color:                     #FFF !default;
+$btn-warning-color:                     #FFF !default;
+$btn-danger-color:                      #FFF !default;
+
+// Button Background Color
+$btn-default-bg-hover:                  $btn-default-border-color !default;
+$btn-inverse-bg-hover:                  mix($btn-inverse-bg, white, 80%) !default;
+$btn-primary-bg-hover:                  mix($btn-primary-bg, black, 80%) !default;
+$btn-info-bg-hover:                     mix($btn-info-bg, black, 80%) !default;
+$btn-success-bg-hover:                  mix($btn-success-bg, black, 80%) !default;
+$btn-warning-bg-hover:                  mix($btn-warning-bg, black, 80%) !default;
+$btn-danger-bg-hover:                   mix($btn-danger-bg, black, 80%) !default;
+$btn-link-bg-hover:                     $gray-lighter !default;
+
+// Line Height
+$line-height-base:                      1.428571429 !default;

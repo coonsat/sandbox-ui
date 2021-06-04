@@ -1,0 +1,72 @@
+
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 0.6em 1em;
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: white;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: $btn-font-size;
+    line-height: $line-height-base;
+}
+
+
+.btn-default {
+    border: 1px solid $btn-default-border-color;
+    border-radius: $btn-border-radius;
+    background-color: $default;
+
+    &-active {
+        background-color: $inverse;
+    }
+}
+
+.btn-primary {
+    border: 1px solid $btn-primary-border-color;
+    border-radius: $btn-border-radius;
+    background-color: $primary;
+}
+
+.btn-danger {
+    border: 1px solid $btn-danger-border-color;
+    border-radius: $btn-border-radius;
+    background-color: $danger;
+}
+
+.btn-warning {
+    border: 1px solid $btn-warning-border-color;
+    border-radius: $btn-border-radius;
+    background-color: $warning;
+}
+
+.btn-success {
+    border: 1px solid $btn-success-border-color;
+    border-radius: $btn-border-radius;
+    background-color: $success;
+}
+
+.btn-inverse {
+    border: 1px solid $btn-inverse-border-color;
+    border-radius: $btn-border-radius;
+    background-color: $inverse;
+}
+
+.btn-info {
+    border: 1px solid $btn-inverse-border-color;
+    border-radius: $btn-border-radius;
+    background-color: $inverse;
+}

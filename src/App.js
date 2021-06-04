@@ -1,23 +1,16 @@
 import logo from './logo.svg';
-import './App.css';
+import './UserInterface/main.scss';
+// import './App.css';
+
+//Component import
+import SimpleButtons from './Components/Buttons/SimpleButtons';
+import GroupButtons from './Components/Buttons/GroupButtons';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <SimpleButtons />
+      <GroupButtons />
     </div>
   );
 }
